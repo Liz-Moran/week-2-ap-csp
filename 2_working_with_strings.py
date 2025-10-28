@@ -37,15 +37,35 @@ print("name ", name.isupper())
 print ("name", name.capitalize())
 
 # # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
+print("Length of phrase:", len(declaration_of_independece))  # Output: 14
 
+declaration_of_independece = "WHEN in the Course of human Events, it becomes necessary for one People to dissolve the Political Bands which have connected them with another, and to assume among the Powers of the Earth, the separate and equal Station to which the Laws of Nature and of Nature's God entitle them, a decent Respect to the Opinions of Mankind requires that they should declare the causes which impel them to the Separation"
+length_dec = len(declaration_of_independece)
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 
+chicago_mayor = "Johnson"
+#index slicing
+print(chicago_mayor[0:4])
+print(len(chicago_mayor))
+print(chicago_mayor[0])
+print(chicago_mayor[4])
+
+print(chicago_mayor[2:-1])
+print(chicago_mayor[0:5])
+
+print(len(chicago_mayor))
+print(chicago_mayor[0])
+print(chicago_mayor[4])
+print(chicago_mayor[-1])
 # # Indexing: Access characters by position (0-based index)
-# print("First character:", phrase[0])  # Output: P
-# print("Last character:", phrase[-1])  # Output: !
+print("First character:", phrase[0])  # Output: P
+print("Last character:", phrase[-1])  # Output: !
+
+phrase3 = "Supercagifragilistic"
+print(phrase3.upper())
+print()
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
