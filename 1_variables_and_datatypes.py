@@ -1,4 +1,4 @@
-name ="your name"
+name ="Lizbeth Moran"
 
 # Algorithm: A step-by-step set of instructions designed to perform a specific task.
 # Example Algorithm: Find the sum of two numbers
@@ -55,11 +55,14 @@ print("Name:", name)
 # # Example (INVALID): first name = "John" ❌
 # # Example (VALID):
 # first_name = "John"
+# firstName = "john"
 
 # # 3. Avoid using Python keywords and symbols
 # # Example (INVALID): for = "test" ❌ (since 'for' is a Python keyword)
 # # Example (VALID):
 # loop_word = "test"
+#class def return etc.
+loop_word = "test"
 
 # print("Variable naming rules followed successfully!\n")
 # # ----------------------------------------
