@@ -37,10 +37,11 @@ print("name ", name.isupper())
 print ("name", name.capitalize())
 
 # # Find the length of the string
-print("Length of phrase:", len(declaration_of_independece))  # Output: 14
+ # Output: 14
 
 declaration_of_independece = "WHEN in the Course of human Events, it becomes necessary for one People to dissolve the Political Bands which have connected them with another, and to assume among the Powers of the Earth, the separate and equal Station to which the Laws of Nature and of Nature's God entitle them, a decent Respect to the Opinions of Mankind requires that they should declare the causes which impel them to the Separation"
 length_dec = len(declaration_of_independece)
+print("len(decp
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
@@ -91,11 +92,11 @@ print()
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+words = sentence.split()
+print("Split result:", words)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
