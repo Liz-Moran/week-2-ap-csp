@@ -130,7 +130,7 @@ pi = 3.1415926535
 print(f"Round: {round(pi)}")
 
 # Importing math functions
-from math import *
+# from math import *
 
 print(f"Square Root of 16: {sqrt(16)}")
 print(f"Ceiling of Pi: {ceil(pi)}")
