@@ -40,8 +40,7 @@ print ("name", name.capitalize())
  # Output: 14
 
 declaration_of_independece = "WHEN in the Course of human Events, it becomes necessary for one People to dissolve the Political Bands which have connected them with another, and to assume among the Powers of the Earth, the separate and equal Station to which the Laws of Nature and of Nature's God entitle them, a decent Respect to the Opinions of Mankind requires that they should declare the causes which impel them to the Separation"
-length_dec = len(declaration_of_independece)
-print("len(decp
+print(len(declaration_of_independece))
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
